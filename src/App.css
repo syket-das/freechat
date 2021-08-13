@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 0%;
 }
 
 .App-logo {
@@ -35,4 +36,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+img{
+  height: 50px;
+  width: 50px;
+}
+  .welcome{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+
+form{
+  display: flex;
+  justify-content: space-around;
+   position: fixed;
+   bottom: 10px;
+   width: 100%;
+   z-index: 1;
+   padding: 5px;
+   background-color: rgba(rgb(238,232,170), .5) !important;
+
+}
+
+.btn{
+  position: relative;
+  left: -10px;
 }
